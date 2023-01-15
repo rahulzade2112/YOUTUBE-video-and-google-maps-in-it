@@ -1,0 +1,157 @@
+.body {
+    /* margin: 0; */
+    /* background-color: #ff0000; */
+    font-family: "Poppins";
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+header {
+    margin-top: -7px;
+    margin-left: -6px;
+    padding: 10px;
+    width: 98.7%;
+    border-style: solid;
+    border-color: rgba(195, 178, 196, 0.447);
+    border-radius: 0.5px;
+    box-shadow: 2px 0px 2px rgb(203, 154, 249);
+    position: fixed;
+    background-color: rgb(246, 215, 250);
+    z-index: 1000;
+}
+
+nav {
+    margin-top: -1px;
+    height: 60px;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    font-weight: 400;
+    font-size: large;
+    padding-left: 10px;
+    flex-wrap: wrap;
+}
+
+nav .a1:nth-child(1) {
+    margin-left: 25px;
+}
+
+nav .a1:nth-child(2) {
+    margin-left: 10%;
+}
+
+nav h1 {
+    margin-left: 182px;
+    margin-right: 182px;
+}
+
+nav.a2:nth-child(1) {
+    margin-left: 10%;
+}
+
+.a3 {
+    margin-left: 10%;
+}
+
+nav .a1,
+nav .a2,
+.a3 {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: 17px;
+}
+
+nav h1 {
+    text-transform: uppercase;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    margin-top: -1px;
+}
+
+nav h1 div:first-child {
+    letter-spacing: 0.1em;
+    width: 800;
+}
+
+nav h1 div:last-child {
+    font-weight: lighter;
+}
+
+.instrument {
+    position: absolute;
+    padding-top: 15%;
+}
+
+#saidnavicon {
+    height: 100%;
+    width: 30px;
+    margin-top: 5.2%;
+    position: fixed;
+}
+
+#saidnavicon i {
+    width: 100px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(28, 29, 29);
+    position: relative;
+}
+
+#saidnavicon i:hover {
+    text-align: center;
+    background-color: rgb(207, 206, 206);
+    /* box-shadow: 18px; */
+    border-radius: 5%;
+}
+
+.map {
+    width: 80px;
+    height: 50px;
+    border: 2px solid;
+    margin-left: 10px;
+}
+
+.instrument {
+    background: rgb(246, 243, 243);
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-left: 15%;
+    margin-top: -6%;
+    right: 0;
+}
+
+.containt1,
+.containt2,
+.containt3 {
+    width: 280px;
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 0px;
+    border: 15px rgb(255, 249, 249);
+}
+
+.containt1:hover {
+    border: 15px solid rgb(255, 255, 255);
+    border-bottom: 150px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    margin-bottom: -15.3%;
+}
+
+.containt2:hover {
+    border: 15px solid rgb(255, 255, 255);
+    border-bottom: 150px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    margin-bottom: -15.3%;
+}
+
+.containt3:hover {
+    border: 15px solid rgb(255, 255, 255);
+    border-bottom: 150px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    margin-bottom: -15.3%;
+}
